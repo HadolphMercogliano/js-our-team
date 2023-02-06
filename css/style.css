@@ -1,9 +1,14 @@
 /* GENERICS */
 body {
-  background: #f1f1f1;
+  background: #ecebe6;
+  font-family: "Cairo", sans-serif;
 }
 /* HEADER */
 
 /* MAIN */
-
+.card-body .h5 {
+  color: rgb(37, 37, 37);
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
 /* FOOTER */

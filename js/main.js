@@ -63,15 +63,14 @@ for (const property of Team) {
 for (const teammate of Team) {
   document.getElementById("cards-row").innerHTML += `
   <div class="col-4 d-flex justify-content-center my-3">
-    <div class="card" style="width: 18rem">
+    <div class="card shadow" style="width: 18rem">
           <img src="${teammate.foto}" class="card-img-top" alt="..." />
           <div class="card-body d-flex flex-column align-items-center">
-            <h5 class="card-title fw-bold">${teammate.nome}</h5>
-            <p class="card-text">${teammate.ruolo}
+            <h5 class=" h5 card-title">${teammate.nome}</h5>
+            <p class="card-text ">${teammate.ruolo}
             </p>
           </div>
         </div>
     </div>
-    
     `;
 }

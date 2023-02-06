@@ -10,5 +10,9 @@ body {
   color: rgb(37, 37, 37);
   font-family: "Playfair Display", serif;
   font-weight: 600;
+  text-align: center;
+}
+.card {
+  min-height: 280px;
 }
 /* FOOTER */
